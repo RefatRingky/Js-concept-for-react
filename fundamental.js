@@ -27,3 +27,24 @@ for (let i = 0; i < number.length; i++) {
     
 }
 
+5.// Function
+function Addition(num1,num2) {
+    sum = num1+num2;
+    return sum;
+}
+const results = Addition(3,4);
+
+// How to declare Object
+const student = {
+    name: 'Ringky',
+    id:15203016,
+    address:'Mohammod Pur'
+}
+const myNmae = 'Ringky'
+// derect access by property
+console.log(student.name); 
+// acess by property name string  
+console.log(student["id"]);
+// access by property variable
+console.log(student[myNmae]);
+
